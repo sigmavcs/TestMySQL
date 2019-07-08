@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "9a4ea624-4334-4034-957c-fc905ca79edb": {
+        "id": "9a4ea624-4334-4034-957c-fc905ca79edb",
+        "parent": null,
+        "name": "TestMySQL",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "4f797bc3-4b17-4a9d-a7e0-703cfb6b9bcf"
+        ],
+        "isRemovable": false,
+        "filePath": "TestMySQL"
+      },
+      "4f797bc3-4b17-4a9d-a7e0-703cfb6b9bcf": {
+        "id": "4f797bc3-4b17-4a9d-a7e0-703cfb6b9bcf",
+        "parent": "9a4ea624-4334-4034-957c-fc905ca79edb",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "TestMySQL/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "9a4ea624-4334-4034-957c-fc905ca79edb",
+    "openFiles": [
+      "4f797bc3-4b17-4a9d-a7e0-703cfb6b9bcf"
+    ],
+    "currentFileId": "4f797bc3-4b17-4a9d-a7e0-703cfb6b9bcf",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "TestMySQL",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1562568014644
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "TestMySQL",
+      "url": "https://github.com/sigmavcs/TestMySQL"
+    }
+  }
+}
